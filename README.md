@@ -25,6 +25,30 @@ Geek-style terminal Snake game, built with Python's `curses`. No dependencies.
 python3 snake.py
 ```
 
+## Install as a terminal command
+
+Make it executable and link it into a directory on your `PATH` so you can
+just type `snake`:
+
+```bash
+chmod +x snake.py
+mkdir -p ~/.local/bin
+ln -s "$(pwd)/snake.py" ~/.local/bin/snake
+```
+
+Make sure `~/.local/bin` is on your `PATH` (add to `~/.zshrc`/`~/.bashrc` if
+not):
+
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+Then run from anywhere:
+
+```bash
+snake
+```
+
 ## Controls
 
 | Key            | Action    |
