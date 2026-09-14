@@ -2,16 +2,7 @@
 
 Geek-style terminal Snake game, built with Python's `curses`. No dependencies.
 
-```
-[ SNAKE.exe | score: 0040 | len: 007 ]
-┌──────────────────────────────┐
-│                               │
-│      ###@                    │
-│                       0       │
-│                               │
-└──────────────────────────────┘
- wasd/arrows move | q quit
-```
+![Snake gameplay screenshot](doc/images/snake.png)
 
 ## Requirements
 
